@@ -22,3 +22,4 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     outstanding shares, or (iii) beneficial ownership of such entity.
 
     "You" (or "Your") shall mean an individual or Legal Entity
+    exercising permissions granted by this License.
