@@ -47,3 +47,5 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     the Work and Derivative Works thereof.
 
     "Contribution" shall mean any work of authorship, including
+    the original version of the Work and any modifications or additions
+    to that Work or Derivative Works thereof, that is intentionally
