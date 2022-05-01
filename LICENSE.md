@@ -103,3 +103,5 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     attribution notices from the Source form of the Work,
     excluding those notices that do not pertain to any part of
     the Derivative Works; and
+
+    (d) If the Work includes a "NOTICE" text file as part of its
