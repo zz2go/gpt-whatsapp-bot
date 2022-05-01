@@ -102,3 +102,4 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     that You distribute, all copyright, patent, trademark, and
     attribution notices from the Source form of the Work,
     excluding those notices that do not pertain to any part of
+    the Derivative Works; and
