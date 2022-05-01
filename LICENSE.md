@@ -105,3 +105,4 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     the Derivative Works; and
 
     (d) If the Work includes a "NOTICE" text file as part of its
+    distribution, then any Derivative Works that You distribute must
