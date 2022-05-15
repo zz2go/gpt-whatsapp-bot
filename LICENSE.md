@@ -117,3 +117,4 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     of the NOTICE file are for informational purposes only and
     do not modify the License. You may add Your own attribution
     notices within Derivative Works that You distribute, alongside
+    or as an addendum to the NOTICE text from the Work, provided
