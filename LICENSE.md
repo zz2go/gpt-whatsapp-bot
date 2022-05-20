@@ -122,3 +122,4 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     as modifying the License.
 
     You may add Your own copyright statement to Your modifications and
+    may provide additional or different license terms and conditions
