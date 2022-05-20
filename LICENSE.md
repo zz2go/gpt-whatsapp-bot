@@ -120,3 +120,5 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     or as an addendum to the NOTICE text from the Work, provided
     that such additional attribution notices cannot be construed
     as modifying the License.
+
+    You may add Your own copyright statement to Your modifications and
