@@ -175,3 +175,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     of your accepting any such warranty or additional liability.
 
 END OF TERMS AND CONDITIONS
+
+Copyright 2023 Asim Ali
+
+Licensed under the Apache License, Version 2.0 (the "License");
