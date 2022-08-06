@@ -10,3 +10,6 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
+
+export const getGPTresponse = async (sender_text, sender_id) => {
+  const conversation_history = await getHistory(sender_id, sender_text).catch(
