@@ -17,3 +17,6 @@ export const getGPTresponse = async (sender_text, sender_id) => {
       console.error(error);
     }
   );
+
+  const options = {
+    model: "text-davinci-003", // GPT model to use
