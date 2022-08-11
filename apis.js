@@ -24,3 +24,5 @@ export const getGPTresponse = async (sender_text, sender_id) => {
     temperature: 1, // Variation level of generated responses, 1 is the maximum
     max_tokens: 200, // Number of tokens (words) to be returned by the bot, 4000 is the maximum
   };
+
+  try {
