@@ -26,3 +26,5 @@ export const getGPTresponse = async (sender_text, sender_id) => {
   };
 
   try {
+    const response = await openai.createCompletion(options);
+    let botResponse = "";
