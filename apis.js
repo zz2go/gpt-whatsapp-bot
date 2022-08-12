@@ -28,3 +28,8 @@ export const getGPTresponse = async (sender_text, sender_id) => {
   try {
     const response = await openai.createCompletion(options);
     let botResponse = "";
+    response.data.choices.forEach(({ text }) => {
+      botResponse += text;
+    });
+    // Trim the Friendly-AI name from the response
+    botResponse = botResponse.replace(AI_NAME + ":", "");
