@@ -41,3 +41,5 @@ export const getGPTresponse = async (sender_text, sender_id) => {
     return botResponse.trim();
   } catch (e) {
     console.error(e);
+    return `❌ OpenAI Response Error: ${e.response?.data?.error?.message}`;
+  }
