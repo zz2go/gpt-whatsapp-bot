@@ -37,3 +37,5 @@ export const getGPTresponse = async (sender_text, sender_id) => {
     // Save the conversation history to the database if the FIREBASE_DB_URL is set
     process.env.FIREBASE_DB_URL &&
       writeUserData(sender_id, sender_text, botResponse.trim());
+
+    return botResponse.trim();
