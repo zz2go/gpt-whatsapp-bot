@@ -39,3 +39,5 @@ export const getGPTresponse = async (sender_text, sender_id) => {
       writeUserData(sender_id, sender_text, botResponse.trim());
 
     return botResponse.trim();
+  } catch (e) {
+    console.error(e);
