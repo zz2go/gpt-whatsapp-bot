@@ -43,3 +43,6 @@ export const getGPTresponse = async (sender_text, sender_id) => {
     console.error(e);
     return `❌ OpenAI Response Error: ${e.response?.data?.error?.message}`;
   }
+};
+
+export const getDalleResponse = async (sender_text) => {
