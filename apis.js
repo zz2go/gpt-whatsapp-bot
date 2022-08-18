@@ -46,3 +46,6 @@ export const getGPTresponse = async (sender_text, sender_id) => {
 };
 
 export const getDalleResponse = async (sender_text) => {
+  const options = {
+    prompt: sender_text, // Image description
+    n: 1, // // Number of images to be generated
