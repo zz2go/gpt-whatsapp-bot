@@ -51,3 +51,5 @@ export const getDalleResponse = async (sender_text) => {
     n: 1, // // Number of images to be generated
     size: "1024x1024", // Image size
   };
+
+  try {
