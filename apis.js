@@ -53,3 +53,6 @@ export const getDalleResponse = async (sender_text) => {
   };
 
   try {
+    const response = await openai.createImage(options);
+    return response.data.data[0].url;
+  } catch (e) {
