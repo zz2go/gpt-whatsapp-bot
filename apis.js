@@ -58,3 +58,4 @@ export const getDalleResponse = async (sender_text) => {
   } catch (e) {
     return `❌ OpenAI Response Error: ${e.response.data.error.message}`;
   }
+};
