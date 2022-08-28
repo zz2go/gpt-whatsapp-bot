@@ -1,3 +1,5 @@
 
 {
   "name": "WhatGPT",
+  "description": "Whatsapp bot for GPT-3. Made with Whatsapp Web and OpenAI.",
+  "keywords": ["whatsapp", "bot", "gpt-3", "openai", "dall-e", "api"],
