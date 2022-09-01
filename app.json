@@ -3,3 +3,6 @@
   "name": "WhatGPT",
   "description": "Whatsapp bot for GPT-3. Made with Whatsapp Web and OpenAI.",
   "keywords": ["whatsapp", "bot", "gpt-3", "openai", "dall-e", "api"],
+  "repository": "https://github.com/imasimali/what-gpt",
+  "success_url": "/",
+  "buildpacks": [
