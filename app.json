@@ -6,3 +6,4 @@
   "repository": "https://github.com/imasimali/what-gpt",
   "success_url": "/",
   "buildpacks": [
+    {
