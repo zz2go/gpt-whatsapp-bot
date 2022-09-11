@@ -7,3 +7,5 @@
   "success_url": "/",
   "buildpacks": [
     {
+      "url": "heroku/nodejs"
+    },
