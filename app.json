@@ -12,3 +12,5 @@
     {
       "url": "jontewks/puppeteer"
     }
+  ],
+  "env": {
