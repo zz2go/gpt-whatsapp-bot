@@ -14,3 +14,6 @@
     }
   ],
   "env": {
+    "OPENAI_KEY": {
+      "required": true,
+      "value": ""
