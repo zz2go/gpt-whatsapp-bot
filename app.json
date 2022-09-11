@@ -9,3 +9,6 @@
     {
       "url": "heroku/nodejs"
     },
+    {
+      "url": "jontewks/puppeteer"
+    }
