@@ -17,3 +17,5 @@
     "OPENAI_KEY": {
       "required": true,
       "value": ""
+    },
+    "BOT_NUMBER": {
