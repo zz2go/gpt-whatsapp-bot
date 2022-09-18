@@ -23,3 +23,5 @@
       "value": ""
     },
     "BOT_PERSONALITY": {
+      "required": false,
+      "value": ""
