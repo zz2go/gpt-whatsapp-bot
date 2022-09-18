@@ -25,3 +25,5 @@
     "BOT_PERSONALITY": {
       "required": false,
       "value": ""
+    },
+    "FIREBASE_DB_URL": {
