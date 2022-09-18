@@ -21,3 +21,5 @@
     "BOT_NUMBER": {
       "required": true,
       "value": ""
+    },
+    "BOT_PERSONALITY": {
