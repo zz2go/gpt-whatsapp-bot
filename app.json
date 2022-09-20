@@ -27,3 +27,5 @@
       "value": ""
     },
     "FIREBASE_DB_URL": {
+      "required": false,
+      "value": ""
