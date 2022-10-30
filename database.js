@@ -1,1 +1,1 @@
-import * as do
+import * as dote
