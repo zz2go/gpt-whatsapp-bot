@@ -1,1 +1,1 @@
-import * as dote
+import * as dotenv 
