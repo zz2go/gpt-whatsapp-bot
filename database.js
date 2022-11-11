@@ -1,1 +1,1 @@
-import * as dotenv fr
+import * as dotenv from
