@@ -1,3 +1,3 @@
 import * as dotenv from "dotenv";
 dotenv.config();
-import { initializeApp } from "firebas
+import { initializeApp } from "firebase/ap
