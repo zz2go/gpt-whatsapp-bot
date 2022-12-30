@@ -3,4 +3,4 @@ dotenv.config();
 import { initializeApp } from "firebase/app";
 import {
   getDatabase,
-  r
+  ref,
