@@ -5,4 +5,4 @@ import {
   getDatabase,
   ref,
   set,
-  get
+  get,
