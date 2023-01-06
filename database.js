@@ -7,4 +7,4 @@ import {
   set,
   get,
   child,
-  pus
+  push,
