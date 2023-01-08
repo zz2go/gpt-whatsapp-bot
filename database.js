@@ -8,4 +8,4 @@ import {
   get,
   child,
   push,
-  que
+  quer
