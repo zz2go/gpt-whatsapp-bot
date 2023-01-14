@@ -10,4 +10,5 @@ import {
   push,
   query,
   limitToLast,
-  serverTimestamp
+  serverTimestamp,
+}
