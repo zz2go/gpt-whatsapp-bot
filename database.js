@@ -11,4 +11,4 @@ import {
   query,
   limitToLast,
   serverTimestamp,
-} fr
+} fro
