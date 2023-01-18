@@ -11,4 +11,4 @@ import {
   query,
   limitToLast,
   serverTimestamp,
-} from "fireba
+} from "firebas
