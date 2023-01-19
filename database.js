@@ -11,4 +11,4 @@ import {
   query,
   limitToLast,
   serverTimestamp,
-} from "firebase/
+} from "firebase/data
