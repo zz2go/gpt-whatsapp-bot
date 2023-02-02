@@ -13,4 +13,4 @@ import {
   serverTimestamp,
 } from "firebase/database";
 
-const firebase_app 
+const firebase_app =
