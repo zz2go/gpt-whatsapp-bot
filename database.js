@@ -14,4 +14,4 @@ import {
 } from "firebase/database";
 
 const firebase_app =
-  process.env.FIREBASE_DB_U
+  process.env.FIREBASE_DB_URL
