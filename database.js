@@ -17,4 +17,5 @@ const firebase_app =
   process.env.FIREBASE_DB_URL &&
   initializeApp({
     databaseURL: process.env.FIREBASE_DB_URL,
-  
+  });
+
