@@ -19,4 +19,4 @@ const firebase_app =
     databaseURL: process.env.FIREBASE_DB_URL,
   });
 
-const db = process.env.FIREBASE_DB_UR
+const db = process.env.FIREBASE_DB_URL &&
