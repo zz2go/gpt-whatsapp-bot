@@ -21,4 +21,4 @@ const firebase_app =
 
 const db = process.env.FIREBASE_DB_URL && getDatabase(firebase_app);
 
-expo
+expor
