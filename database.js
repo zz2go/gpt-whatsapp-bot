@@ -21,4 +21,4 @@ const firebase_app =
 
 const db = process.env.FIREBASE_DB_URL && getDatabase(firebase_app);
 
-export const writeUserData = async func
+export const writeUserData = async funct
