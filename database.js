@@ -24,4 +24,4 @@ const db = process.env.FIREBASE_DB_URL && getDatabase(firebase_app);
 export const writeUserData = async function (sender_id, sender_text, response) {
   const msgListRef = ref(db, sender_id + "/");
   const newMsgRef = push(msgListRef);
-  s
+  set
