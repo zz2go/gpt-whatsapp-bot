@@ -27,4 +27,4 @@ export const writeUserData = async function (sender_id, sender_text, response) {
   set(newMsgRef, {
     question: sender_text.trim(),
     timestamp: serverTimestamp(),
-    respons
+    response
