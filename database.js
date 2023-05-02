@@ -28,3 +28,4 @@ export const writeUserData = async function (sender_id, sender_text, response) {
     question: sender_text.trim(),
     timestamp: serverTimestamp(),
     response,
+ 
