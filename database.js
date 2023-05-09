@@ -29,4 +29,4 @@ export const writeUserData = async function (sender_id, sender_text, response) {
     timestamp: serverTimestamp(),
     response,
   }).catch((error) => {
-    console.er
+    console.erro
