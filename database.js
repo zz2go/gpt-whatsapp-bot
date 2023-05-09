@@ -30,4 +30,4 @@ export const writeUserData = async function (sender_id, sender_text, response) {
     response,
   }).catch((error) => {
     console.error(error);
- 
+  })
