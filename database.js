@@ -32,3 +32,5 @@ export const writeUserData = async function (sender_id, sender_text, response) {
     console.error(error);
   });
 };
+
+ex
