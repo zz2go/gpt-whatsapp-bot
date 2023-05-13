@@ -33,4 +33,4 @@ export const writeUserData = async function (sender_id, sender_text, response) {
   });
 };
 
-export const readUserData = async
+export const readUserData = async func
