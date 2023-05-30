@@ -34,4 +34,4 @@ export const writeUserData = async function (sender_id, sender_text, response) {
 };
 
 export const readUserData = async function (sender_id) {
-  const userDBRef = query(ref(db), limitToLast(
+  const userDBRef = query(ref(db), limitToLast(50
