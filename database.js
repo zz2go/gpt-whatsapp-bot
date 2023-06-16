@@ -37,4 +37,4 @@ export const readUserData = async function (sender_id) {
   const userDBRef = query(ref(db), limitToLast(50));
   const response = await get(child(userDBRef, sender_id + "/"))
     .then((snapshot) => {
-      if (snapshot
+      if (snapshot.
