@@ -38,4 +38,4 @@ export const readUserData = async function (sender_id) {
   const response = await get(child(userDBRef, sender_id + "/"))
     .then((snapshot) => {
       if (snapshot.exists()) {
-        return snapsh
+        return snapsho
