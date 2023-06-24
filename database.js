@@ -39,4 +39,4 @@ export const readUserData = async function (sender_id) {
     .then((snapshot) => {
       if (snapshot.exists()) {
         return snapshot.val();
-  
+      
