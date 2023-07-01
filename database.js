@@ -44,4 +44,4 @@ export const readUserData = async function (sender_id) {
     .catch((error) => {
       console.error(error);
     });
-  ret
+  return
