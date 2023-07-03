@@ -45,4 +45,4 @@ export const readUserData = async function (sender_id) {
       console.error(error);
     });
   return response;
-}
+};
