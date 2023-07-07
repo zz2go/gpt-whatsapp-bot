@@ -6,3 +6,11 @@ import pkg from "whatsapp-web.js";
 const { Client, MessageMedia, LocalAuth } = pkg;
 
 import { getGPTresponse, getDalleResponse } from "./apis.js";
+
+const client = new Client({
+  authStrategy: new LocalAuth(),
+  puppeteer: {
+    headless: true,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
