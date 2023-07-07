@@ -14,3 +14,4 @@ const client = new Client({
     args: [
       "--no-sandbox",
       "--disable-setuid-sandbox",
+      "--unhandled-rejections=strict",
