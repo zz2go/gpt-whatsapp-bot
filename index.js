@@ -18,3 +18,5 @@ const client = new Client({
     ],
   },
 });
+
+client.on("qr", (qr) => {
