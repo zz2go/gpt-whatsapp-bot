@@ -24,3 +24,7 @@ client.on("qr", (qr) => {
 });
 
 client.on("authenticated", (session) => console.log(`Authenticated`));
+
+client.on("ready", () =>
+  console.log("Chat GPT Bot - Created by @imasimali 🚀")
+);
