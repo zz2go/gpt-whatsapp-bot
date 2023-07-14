@@ -28,3 +28,5 @@ client.on("authenticated", (session) => console.log(`Authenticated`));
 client.on("ready", () =>
   console.log("Chat GPT Bot - Created by @imasimali 🚀")
 );
+
+client.on("message_create", (message) => commands(message));
