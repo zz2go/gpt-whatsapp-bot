@@ -30,3 +30,5 @@ client.on("ready", () =>
 );
 
 client.on("message_create", (message) => commands(message));
+
+client.initialize();
