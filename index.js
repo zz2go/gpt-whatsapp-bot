@@ -36,3 +36,4 @@ client.initialize();
 const commands = async (message) => {
   const botCommands = {
     davinci3: "/bot",
+    dalle: "/img",
