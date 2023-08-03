@@ -34,3 +34,5 @@ client.on("message_create", (message) => commands(message));
 client.initialize();
 
 const commands = async (message) => {
+  const botCommands = {
+    davinci3: "/bot",
