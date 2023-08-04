@@ -42,3 +42,6 @@ const commands = async (message) => {
   const sender = message.from.includes(process.env.BOT_NUMBER)
     ? message.to
     : message.from;
+
+  const command = message.body.substring(0, message.body.indexOf(" "));
+  const prompt = message.body.substring(message.body.indexOf(" "));
