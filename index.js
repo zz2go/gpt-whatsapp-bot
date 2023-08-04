@@ -38,3 +38,7 @@ const commands = async (message) => {
     davinci3: "/bot",
     dalle: "/img",
   };
+
+  const sender = message.from.includes(process.env.BOT_NUMBER)
+    ? message.to
+    : message.from;
