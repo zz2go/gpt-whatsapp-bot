@@ -45,3 +45,5 @@ const commands = async (message) => {
 
   const command = message.body.substring(0, message.body.indexOf(" "));
   const prompt = message.body.substring(message.body.indexOf(" "));
+  const sender_id = sender.split("@")[0];
+  const contact = await message.getContact();
