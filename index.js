@@ -47,3 +47,5 @@ const commands = async (message) => {
   const prompt = message.body.substring(message.body.indexOf(" "));
   const sender_id = sender.split("@")[0];
   const contact = await message.getContact();
+
+  switch (command) {
