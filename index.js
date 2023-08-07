@@ -49,3 +49,4 @@ const commands = async (message) => {
   const contact = await message.getContact();
 
   switch (command) {
+    case botCommands.davinci3:
