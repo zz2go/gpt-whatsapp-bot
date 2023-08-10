@@ -50,3 +50,4 @@ const commands = async (message) => {
 
   switch (command) {
     case botCommands.davinci3:
+      try {
