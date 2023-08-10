@@ -51,3 +51,8 @@ const commands = async (message) => {
   switch (command) {
     case botCommands.davinci3:
       try {
+        getGPTresponse(prompt, sender_id).then((response) => {
+          client.sendMessage(sender, `Chat GPT 🤖\n\n${response}`, {
+            mentions: [contact],
+          });
+        });
