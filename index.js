@@ -56,3 +56,4 @@ const commands = async (message) => {
             mentions: [contact],
           });
         });
+      } catch (error) {
