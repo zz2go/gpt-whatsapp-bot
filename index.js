@@ -59,3 +59,8 @@ const commands = async (message) => {
       } catch (error) {
         console.error(error);
       }
+      break;
+
+    case botCommands.dalle:
+      try {
+        getDalleResponse(prompt, message).then(async (imgUrl) => {
