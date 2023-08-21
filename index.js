@@ -64,3 +64,6 @@ const commands = async (message) => {
     case botCommands.dalle:
       try {
         getDalleResponse(prompt, message).then(async (imgUrl) => {
+          try {
+            const media = await MessageMedia.fromUrl(imgUrl);
+            const options = {
