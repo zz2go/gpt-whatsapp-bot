@@ -67,3 +67,4 @@ const commands = async (message) => {
           try {
             const media = await MessageMedia.fromUrl(imgUrl);
             const options = {
+              mentions: [contact],
