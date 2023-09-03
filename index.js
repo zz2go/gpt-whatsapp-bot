@@ -72,3 +72,4 @@ const commands = async (message) => {
               media: media,
             };
             await client.sendMessage(sender, media, options);
+          } catch (error) {
