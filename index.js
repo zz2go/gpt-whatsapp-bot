@@ -76,3 +76,4 @@ const commands = async (message) => {
             client.sendMessage(sender, imgUrl);
           }
         });
+      } catch (error) {
