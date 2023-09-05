@@ -73,3 +73,6 @@ const commands = async (message) => {
             };
             await client.sendMessage(sender, media, options);
           } catch (error) {
+            client.sendMessage(sender, imgUrl);
+          }
+        });
