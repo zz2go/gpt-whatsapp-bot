@@ -80,3 +80,5 @@ const commands = async (message) => {
         console.error(error);
       }
       break;
+  }
+};
