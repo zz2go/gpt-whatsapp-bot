@@ -78,3 +78,4 @@ const commands = async (message) => {
         });
       } catch (error) {
         console.error(error);
+      }
