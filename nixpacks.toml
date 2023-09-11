@@ -2,3 +2,4 @@
 [phases.setup]
   aptPkgs = [
     'fonts-liberation',
+    'libappindicator3-1',
