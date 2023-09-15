@@ -16,3 +16,5 @@
     'libxdamage1',
     'libxfixes3',
     'libxi6',
+    'libxrandr2',
+    'libxss1',
