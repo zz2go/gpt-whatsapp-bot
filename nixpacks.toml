@@ -14,3 +14,5 @@
     'libxcomposite1',
     'libxcursor1',
     'libxdamage1',
+    'libxfixes3',
+    'libxi6',
