@@ -18,3 +18,5 @@
     'libxi6',
     'libxrandr2',
     'libxss1',
+    'libxtst6',
+    'xdg-utils',
