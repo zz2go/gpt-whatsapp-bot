@@ -22,3 +22,5 @@
     'xdg-utils',
     'libu2f-udev',
     'libvulkan1',
+    'wget',
+    '...'
