@@ -11,3 +11,7 @@
     "dall-e",
     "api"
   ],
+  "author": "Asim Ali <hi@asimali.net>",
+  "repository": "https://github.com/imasimali/What-GPT",
+  "license": "Apache-2.0",
+  "main": "index.js",
