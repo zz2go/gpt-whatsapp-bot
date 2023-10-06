@@ -15,3 +15,6 @@
   "repository": "https://github.com/imasimali/What-GPT",
   "license": "Apache-2.0",
   "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
