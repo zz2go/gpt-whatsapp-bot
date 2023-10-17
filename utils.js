@@ -8,3 +8,5 @@ export const AI_NAME = process.env.BOT_PERSONALITY
   : "AI";
 
 //Updates the conversation history and generates a response using GPT-3
+export const getHistory = async (sender_id, sender_text) => {
+  let conversation_history = "";
