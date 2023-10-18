@@ -15,3 +15,4 @@ export const getHistory = async (sender_id, sender_text) => {
     // Get the conversation history from the database
     let fireHistory = await readUserData(sender_id);
     if (!fireHistory) {
+      fireHistory = {};
