@@ -13,3 +13,5 @@ export const getHistory = async (sender_id, sender_text) => {
 
   if (process.env.FIREBASE_DB_URL) {
     // Get the conversation history from the database
+    let fireHistory = await readUserData(sender_id);
+    if (!fireHistory) {
