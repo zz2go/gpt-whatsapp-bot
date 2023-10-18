@@ -10,3 +10,6 @@ export const AI_NAME = process.env.BOT_PERSONALITY
 //Updates the conversation history and generates a response using GPT-3
 export const getHistory = async (sender_id, sender_text) => {
   let conversation_history = "";
+
+  if (process.env.FIREBASE_DB_URL) {
+    // Get the conversation history from the database
