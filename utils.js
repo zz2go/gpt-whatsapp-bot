@@ -16,3 +16,4 @@ export const getHistory = async (sender_id, sender_text) => {
     let fireHistory = await readUserData(sender_id);
     if (!fireHistory) {
       fireHistory = {};
+    }
