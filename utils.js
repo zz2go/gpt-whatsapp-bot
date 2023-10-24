@@ -23,3 +23,6 @@ export const getHistory = async (sender_id, sender_text) => {
     // convert the object to a string
     fireHistory.map((conversation) => {
       conversation_history += `${sender_id}: ${conversation.question}\n`;
+      conversation_history += `${AI_NAME}: ${conversation.response}\n`;
+    });
+  } else {
