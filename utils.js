@@ -17,3 +17,7 @@ export const getHistory = async (sender_id, sender_text) => {
     if (!fireHistory) {
       fireHistory = {};
     }
+
+    fireHistory = Object.values(fireHistory);
+
+    // convert the object to a string
