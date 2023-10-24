@@ -21,3 +21,5 @@ export const getHistory = async (sender_id, sender_text) => {
     fireHistory = Object.values(fireHistory);
 
     // convert the object to a string
+    fireHistory.map((conversation) => {
+      conversation_history += `${sender_id}: ${conversation.question}\n`;
