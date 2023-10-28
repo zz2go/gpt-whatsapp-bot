@@ -26,3 +26,5 @@ export const getHistory = async (sender_id, sender_text) => {
       conversation_history += `${AI_NAME}: ${conversation.response}\n`;
     });
   } else {
+    conversation_history = `${AI_NAME}: Hi, I'm here to answer your questions.\n`;
+  }
