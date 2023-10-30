@@ -30,3 +30,4 @@ export const getHistory = async (sender_id, sender_text) => {
   }
 
   // Add current question to conversation history
+  conversation_history += `${sender_id}: ${sender_text}\n`;
