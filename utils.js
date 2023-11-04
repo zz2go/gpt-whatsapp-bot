@@ -39,3 +39,6 @@ export const getHistory = async (sender_id, sender_text) => {
       .slice(conversation_history.split(" ").length - 2000)
       .join(" ");
   }
+
+  return conversation_history;
+};
