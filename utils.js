@@ -33,3 +33,7 @@ export const getHistory = async (sender_id, sender_text) => {
   conversation_history += `${sender_id}: ${sender_text}\n`;
 
   // trim the conversation history to less than 4000 tokens for GPT-3
+  if (conversation_history.split(" ").length > 2000) {
+    conversation_history = conversation_history
+      .split(" ")
+      .slice(conversation_history.split(" ").length - 2000)
